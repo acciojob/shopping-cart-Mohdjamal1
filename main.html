@@ -10,19 +10,22 @@
 	<!-- the entire body must be written by student -->
 	<label for="item-name-input">Name:</label>
 	<input type="text" id="item-name-input" placeholder='Name' />
-	<label for="item-qty-input">Price:</label>
-	<input type="number" id="item-qty-input" /><br>
+	<label for="item-qty-input">Qty:</label>
+	<input type="number" id="item-qty-input" placeholder='qty' />
+	<label for="item-price-input">Price:</label>
+	<input type="text" id="item-price-input" placeholder='Price' /><br>
 	<button id="add">Add</button>
 	<table border>
 		<thead>
 <!-- 			<th>Item No.</th> -->
-			<th>Item Name</th>
-			<th>Item Price</th>
+			<th>Name</th>
+			<th>Quantity</th>
+			<th>Price</th>
 		</thead>
 		<tbody id="tbody">
 		</tbody>
 		<tfoot>
-			<tr id='total'><td colspan='2'><h3 id='priceT'>Total: 0</h3></td></tr>
+			<tr id='total'><td colspan='3'><h3 id='priceT'>Total: 0</h3></td></tr>
 			
 		</tfoot>
 	</table>
