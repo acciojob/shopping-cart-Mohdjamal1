@@ -1,6 +1,6 @@
 //your code here
 let inpName = document.getElementById('item-name-input');
-let inpPrice = document.getElementById('item-price-input');
+let inpPrice = document.getElementById('item-qty-input');
 let tbody = document.getElementById('tbody');
 let total = document.getElementById('priceT');
 let itemList = [];
